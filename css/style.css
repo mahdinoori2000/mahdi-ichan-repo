@@ -7,3 +7,15 @@
 body {
   font-family: sans-serif;
 }
+
+#img-div{
+  width: 1000px;
+  height: 500px;
+  background-color: red;
+  margin: auto;
+}
+#image{
+  margin: auto;
+  max-width: 70%;
+  height: 75%;
+}
