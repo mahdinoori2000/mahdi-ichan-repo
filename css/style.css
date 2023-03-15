@@ -29,18 +29,17 @@ body {
 /* IMAGE SECTION  */
 
 #img-div {
-  width: 1100px;
-  /* background-color: red; */
+  max-width: 1000px;
+  /* height: auto; */
   margin: auto;
-  padding: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 #image {
-  margin: auto;
-  max-width: 700px;
+  max-width: 100%;
   height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  display: block;
 }
 #img-caption {
   text-align: center;
@@ -49,9 +48,27 @@ body {
 }
 
 /* TRIBUTE SECTION */
-#tribute-info{
-  margin:auto;
+#tribute-info {
+  margin: auto;
   max-width: 700px;
   line-height: 1.5;
-  
+}
+#tribute-info p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#tribute-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+#tribute-list li span {
+  font-weight: bold;
+}
+.info-section {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
 }
